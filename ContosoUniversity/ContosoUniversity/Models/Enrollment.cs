@@ -6,6 +6,8 @@
         public int CourseID { get; set; }
         public int StudentID { get; set; }
         public Grade? Grade { get; set; }
+
+        //Navigational Properties 
         public Models.Course Course { get; set; }
         public Student Student { get; set; }
 
